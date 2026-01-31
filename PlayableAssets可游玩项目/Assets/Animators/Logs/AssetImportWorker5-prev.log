@@ -1,0 +1,2093 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.33f1c1 (682b9db7927c) revision 6826909'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 16110 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Editors\Unity 2021.3.33f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/ArticleCreator/PlayableAssets可游玩项目
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+62932
+Successfully changed project path to: D:/ArticleCreator/PlayableAssets可游玩项目
+D:/ArticleCreator/PlayableAssets可游玩项目
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19460] Host "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 2612102514 [EditorId] 2612102514 [Version] 1048832 [Id] WindowsEditor(7,SC-202408211807) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19460] Host "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 2612102514 [EditorId] 2612102514 [Version] 1048832 [Id] WindowsEditor(7,SC-202408211807) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 138.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1c1 (682b9db7927c)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Editors/Unity 2021.3.33f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ArticleCreator/PlayableAssets可游玩项目/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7628
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Editors/Unity 2021.3.33f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Editors/Unity 2021.3.33f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Editors/Unity 2021.3.33f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Editors/Unity 2021.3.33f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Unity Editors/Unity 2021.3.33f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.144386 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 100.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2838ms)
+		BeginReloadAssembly (433ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1703ms)
+			LoadAssemblies (433ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (675ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (200ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 96.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.436 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2437ms)
+		BeginReloadAssembly (447ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1828ms)
+			LoadAssemblies (404ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1085ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (55ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 3352.
+Memory consumption went from 142.0 MB to 140.5 MB.
+Total: 7.376000 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.258400 ms MarkObjects: 5.314000 ms  DeleteObjects: 1.408200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48426.042469 seconds.
+  path: Assets/Art/NewArtResources/设定/Bsheding_title.png
+  artifactKey: Guid(22541026f3216794b8a3c46b210b3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/设定/Bsheding_title.png using Guid(22541026f3216794b8a3c46b210b3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7a67dafbd2f43bdaf7f333ab3a0d4b') in 0.773245 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/NewArtResources/放置角色+信件UI+新进度条/放置角色+信件UI+新进度条/书本命名+收到信件/scoretitle.png
+  artifactKey: Guid(84d36737c01dfec44b68b7c136bf4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/放置角色+信件UI+新进度条/放置角色+信件UI+新进度条/书本命名+收到信件/scoretitle.png using Guid(84d36737c01dfec44b68b7c136bf4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d7e3d1c0c2206b54fce5fe272d4912') in 0.598404 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.728971 seconds.
+  path: Assets/Animators/CharacterSprite/随从（补）/随从（补）/蘑菇弹道/0.png
+  artifactKey: Guid(e9bba4aeadaf6a24babe6bb97921ea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/随从（补）/随从（补）/蘑菇弹道/0.png using Guid(e9bba4aeadaf6a24babe6bb97921ea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24255f42c2c5bbc5d2d69e69d29ce0a5') in 0.767183 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/1_7.PNG
+  artifactKey: Guid(42a72df5bbfbffd4094e0301f3516448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/1_7.PNG using Guid(42a72df5bbfbffd4094e0301f3516448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f641b5a997d0f9bb558d572e5dfd7134') in 1.119560 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/WordImage/wordTitle/1_5.PNG
+  artifactKey: Guid(9eaacd37d1748b940ae62c35e3300223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/1_5.PNG using Guid(9eaacd37d1748b940ae62c35e3300223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d9471f03405e747b8abd361d3a6be8') in 1.198320 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/狄卡德弹道/3.png
+  artifactKey: Guid(1e1b0c811d62e9249b1d855621da7a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/狄卡德弹道/3.png using Guid(1e1b0c811d62e9249b1d855621da7a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575000f74730f7837c9952880e42b7a6') in 0.514825 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/弹道/怀疑主义弹道/怀疑主义弹道_思潮/0.png
+  artifactKey: Guid(189fa10c43b155d4887ea6f90182e73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/怀疑主义弹道/怀疑主义弹道_思潮/0.png using Guid(189fa10c43b155d4887ea6f90182e73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef469b95bc7d51b8caa605a64bec938') in 0.689627 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/FirstStage/特效/shiqing/1.png
+  artifactKey: Guid(61612891ecc6052408bce75f1a028631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/shiqing/1.png using Guid(61612891ecc6052408bce75f1a028631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4fa57b993d5e7caeded7cbd562c016') in 0.847851 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_25.png
+  artifactKey: Guid(613213bcbaf7136489ec445e8590fd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_25.png using Guid(613213bcbaf7136489ec445e8590fd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7bd30ab67820b4372728fbecd0033d') in 0.659788 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/FirstStage/BookDesk/toRightbtn.png
+  artifactKey: Guid(4da63c873041d1a4bb3b0c9dbcdd9cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/BookDesk/toRightbtn.png using Guid(4da63c873041d1a4bb3b0c9dbcdd9cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fc8bf6c3515feb7e725cb2aeb0febb') in 0.649820 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_18.png
+  artifactKey: Guid(f7163d0e92fa1df4c8c10dd0da61d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_18.png using Guid(f7163d0e92fa1df4c8c10dd0da61d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d357e1e2c2cf858370b992e39e80ce4') in 0.644794 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animators/CharacterSprite/huaiyizhuyi/弹道_认知固化/renzhiguhua_01 (2).png
+  artifactKey: Guid(43ac173c4ace5344593188886f0fe5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/huaiyizhuyi/弹道_认知固化/renzhiguhua_01 (2).png using Guid(43ac173c4ace5344593188886f0fe5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fb13c79076dcc2f6ceb6c150cceb5b') in 0.914786 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00068.png
+  artifactKey: Guid(f899503f8b8164e43b7697e39d9e288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00068.png using Guid(f899503f8b8164e43b7697e39d9e288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa3c5b5d4741a320841144f34a27118') in 1.152338 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/4_0.PNG
+  artifactKey: Guid(67cb0cf81a9b81c4e9dba1b5fefb4265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/4_0.PNG using Guid(67cb0cf81a9b81c4e9dba1b5fefb4265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed150aed4d71ff57f93f2a301971e14a') in 0.844658 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_30.png
+  artifactKey: Guid(0110b0a7b4dcf454fb9db58895271540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_30.png using Guid(0110b0a7b4dcf454fb9db58895271540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c9952ecac6a8f8fe6961ec52d44b02') in 0.862486 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/FirstStage/BookDesk/shuzhuoBG1.png
+  artifactKey: Guid(ba6ca400db9b01b4ab54cf5f7f24cae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/BookDesk/shuzhuoBG1.png using Guid(ba6ca400db9b01b4ab54cf5f7f24cae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5427f3ea337cc150a89ad83fb731f2a') in 0.743729 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/1.22毕设/1.22毕设/层.PNG
+  artifactKey: Guid(c2d8b167371880a4f91c889672ac3a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/1.22毕设/1.22毕设/层.PNG using Guid(c2d8b167371880a4f91c889672ac3a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a477775dfdaa064317e2118da7669da7') in 0.412160 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_03.png
+  artifactKey: Guid(ee22654bc8709ac428d6b21f9c838808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_03.png using Guid(ee22654bc8709ac428d6b21f9c838808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c785ae6c9bd6815458dca6f3a2b450e3') in 1.347386 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_06.png
+  artifactKey: Guid(de6b9e61b1f228b44a79066f0c1c9926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_06.png using Guid(de6b9e61b1f228b44a79066f0c1c9926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494e5e1ccf831ac0eb2ada287736c529') in 1.108010 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/莎乐美弹道/4.png
+  artifactKey: Guid(fbe279bb2bd99994d89ba42e5c4ee26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/莎乐美弹道/4.png using Guid(fbe279bb2bd99994d89ba42e5c4ee26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f99e674e8ebef6ac31fcb3000a19819') in 0.633758 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/事件2/事件横幅/交易1/IMG_7073-23.png
+  artifactKey: Guid(0fec18d1abfb8a4468f08d0ab66f2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件横幅/交易1/IMG_7073-23.png using Guid(0fec18d1abfb8a4468f08d0ab66f2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910cf6a3a20d158c69075488f737584') in 0.810097 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_27.png
+  artifactKey: Guid(2bb9cde995ad64948a5b54cee96d8ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_27.png using Guid(2bb9cde995ad64948a5b54cee96d8ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8259d292736431fe610ca65e3a0a31f7') in 0.496029 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/FirstStage/特效/LengXiangWanSkill/冷香丸特效_07.png
+  artifactKey: Guid(616342c69e9b3a049940b5dbe427465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/LengXiangWanSkill/冷香丸特效_07.png using Guid(616342c69e9b3a049940b5dbe427465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86e4f343beef849b6a24a07bd8558d5') in 0.545435 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/huaiyizhuyi/怀疑主义普攻/普攻/怀疑主义普攻_16.png
+  artifactKey: Guid(6e6c3f18b2bf6e440a1c104cd11a99f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/huaiyizhuyi/怀疑主义普攻/普攻/怀疑主义普攻_16.png using Guid(6e6c3f18b2bf6e440a1c104cd11a99f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4ba42ef3f8f84d6336c75ad1a91ffe') in 2.222700 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/事件2/意外2/意外2/IMG_7073-10.png
+  artifactKey: Guid(41c88677a4702dd428c05b56158fbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/意外2/意外2/IMG_7073-10.png using Guid(41c88677a4702dd428c05b56158fbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a590c28922847540fdac81557a5506') in 0.697561 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00038.png
+  artifactKey: Guid(2d7bd0b42c661794197819edcd292f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00038.png using Guid(2d7bd0b42c661794197819edcd292f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9581917e21776ebb7a0d87537635674') in 0.601085 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_15.jpg
+  artifactKey: Guid(2e98093c4b93d0444a716964fcbd9182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_15.jpg using Guid(2e98093c4b93d0444a716964fcbd9182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256436582725739235795e7c2e0ed528') in 0.985698 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-14.png
+  artifactKey: Guid(16f94ab2eae7a6142b5982a74858184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-14.png using Guid(16f94ab2eae7a6142b5982a74858184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f204d841978dd7a4cdc892486796e') in 0.525296 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/特效2/俘获/俘获_上/5.png
+  artifactKey: Guid(0508dca0db024a74c8f9f5be3b626d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/俘获/俘获_上/5.png using Guid(0508dca0db024a74c8f9f5be3b626d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27be9ed6e034e15a03e272d53a6f31e') in 0.833086 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/事件2/事件title/jiaoyi.PNG
+  artifactKey: Guid(c717f43a9c6613045ad4cf3091290df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件title/jiaoyi.PNG using Guid(c717f43a9c6613045ad4cf3091290df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd45dc4f0772451678abb9e00c7b645') in 0.863763 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/settingSprite/pingyong/yimingdiming.PNG
+  artifactKey: Guid(5832480468492f046a7dc921df4f80e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/settingSprite/pingyong/yimingdiming.PNG using Guid(5832480468492f046a7dc921df4f80e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a95ab5d7d30d1ed60060c1ec790ddba') in 0.754695 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_03.png
+  artifactKey: Guid(15cce6b0dbdab244382e19eaab0a3c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_03.png using Guid(15cce6b0dbdab244382e19eaab0a3c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b4c4e2e28cb0db1c5cc0f038badb8e') in 0.660696 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/12.png
+  artifactKey: Guid(497fa3ecbf85af4438ab748486d5208c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/12.png using Guid(497fa3ecbf85af4438ab748486d5208c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3c9c7e230e9777de874e46986ffc16') in 0.422397 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/WordImage/wordTitle/槽（3）.PNG
+  artifactKey: Guid(f01d16a25c3dbda4f9ac8c9e12d47f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/槽（3）.PNG using Guid(f01d16a25c3dbda4f9ac8c9e12d47f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8968127025c4261ae79d3bf1157ff15f') in 0.474511 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_07.png
+  artifactKey: Guid(33d3a83b6d988a44991a7c11e2cb5577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_07.png using Guid(33d3a83b6d988a44991a7c11e2cb5577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5514e7716d7f56ab08442e9d1bd4f52') in 0.605561 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00071.png
+  artifactKey: Guid(88cb278bd90336d448956e825ba84fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00071.png using Guid(88cb278bd90336d448956e825ba84fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acaeb2d778735619fd14e5a46546f29') in 0.775238 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_21.png
+  artifactKey: Guid(185d9d52be044864e93c7608ad2439ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_21.png using Guid(185d9d52be044864e93c7608ad2439ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9022afe7480c75bc08ab52d8e08040f7') in 0.838291 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/WordImage/Character/Detail/木乃伊.png
+  artifactKey: Guid(1a8fa1dd08be2fe4786720318247a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Character/Detail/木乃伊.png using Guid(1a8fa1dd08be2fe4786720318247a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c128864a1485c1fd37659fd9a28f87') in 1.093740 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_33.png
+  artifactKey: Guid(afb86d82e2f37784691fd08267dffe0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_33.png using Guid(afb86d82e2f37784691fd08267dffe0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dd8af8e6310f9ab56a5c215a33c3be') in 1.369123 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00066.png
+  artifactKey: Guid(486cba4493546124eb1c97928e6e7830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00066.png using Guid(486cba4493546124eb1c97928e6e7830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d1b64ddee54347044ad11ba4a4653a') in 1.821659 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/事件2/危机1/危机1/IMG_7073-17.png
+  artifactKey: Guid(e8113c3006de04d4e9ae95c5a95c9e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/危机1/危机1/IMG_7073-17.png using Guid(e8113c3006de04d4e9ae95c5a95c9e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f6473cd5b57d5d1c365da536ecd496') in 2.942265 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_36.png
+  artifactKey: Guid(f894e1c9bda79814da75ccc7f3d39871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_36.png using Guid(f894e1c9bda79814da75ccc7f3d39871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044278229141c172d43212dba4e39c47') in 0.772365 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00019.png
+  artifactKey: Guid(07fa528c4f81ace4689de1255ef35bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00019.png using Guid(07fa528c4f81ace4689de1255ef35bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713f41c63e0ddd57dc0e6257cb3b8a7d') in 0.911309 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/5.25角色卡牌和新卡/5.25角色卡牌和新卡/xinka (20).PNG
+  artifactKey: Guid(31fd989d29ce00546ac8519b7b71dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.25角色卡牌和新卡/5.25角色卡牌和新卡/xinka (20).PNG using Guid(31fd989d29ce00546ac8519b7b71dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8668e7ab0b44c5ba293e4a3ce6d0ae') in 1.428372 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/StoryCG/mingzhongzhuding/tears-3.png
+  artifactKey: Guid(9b44da1138cf10846b13bb088d4818ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/StoryCG/mingzhongzhuding/tears-3.png using Guid(9b44da1138cf10846b13bb088d4818ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595be03f53c069ded27743102ad9a82c') in 0.767146 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack30.png
+  artifactKey: Guid(97acedfb589f32443aeee8604c201cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack30.png using Guid(97acedfb589f32443aeee8604c201cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae79101afe5ac78b148a5fd498c896d') in 1.801898 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_02.png
+  artifactKey: Guid(79fc69ae05a18c948b45a5926c357f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_02.png using Guid(79fc69ae05a18c948b45a5926c357f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70948021516a4af05614349679a17bc') in 2.664194 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_56.png
+  artifactKey: Guid(5b17771ad7852484e9317a3e85bed4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_56.png using Guid(5b17771ad7852484e9317a3e85bed4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f369702987ff498e19ab499cbc160c7') in 2.727937 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/4_6.PNG
+  artifactKey: Guid(be00eeb46d4ddf240b396f9d6d0f1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/4_6.PNG using Guid(be00eeb46d4ddf240b396f9d6d0f1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61473ed55c405f449f1ad748b226b710') in 3.508411 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/弹道/警察弹道/警察特效/1.png
+  artifactKey: Guid(676eb60a7f180e24790567deb66eec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/警察弹道/警察特效/1.png using Guid(676eb60a7f180e24790567deb66eec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce34ee451dd117804fab57ab94b4a24') in 1.717906 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack9.png
+  artifactKey: Guid(d82cbd1af18cbba429eba13987ae9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack9.png using Guid(d82cbd1af18cbba429eba13987ae9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bedfea6692011284abdbee56c03ba9') in 1.006651 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/事件2/事件大logo/JIAOYI.PNG
+  artifactKey: Guid(6850f5a1ae7e75b4faaf791031a30a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件大logo/JIAOYI.PNG using Guid(6850f5a1ae7e75b4faaf791031a30a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a931d023b984cd8890e265bc31c2f294') in 1.278252 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00034.png
+  artifactKey: Guid(8391b6759718356408ae3605adc50f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00034.png using Guid(8391b6759718356408ae3605adc50f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d14f41e06862b6ea419690c02cdba21') in 0.999637 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/特效1/特效1/提升生命上限/tisheng_3.png
+  artifactKey: Guid(7fb7a55c047adc446915b9ac3d179b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效1/特效1/提升生命上限/tisheng_3.png using Guid(7fb7a55c047adc446915b9ac3d179b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773670df6e7139caa9c6e26a54380b4') in 1.431095 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/NewArtResources/tableobject/staticObject/pipe.png
+  artifactKey: Guid(6159142fd29321740a61bfd086988f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/tableobject/staticObject/pipe.png using Guid(6159142fd29321740a61bfd086988f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e9cbca7d8114133c166785b7fc5b2c') in 0.860400 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_05.png
+  artifactKey: Guid(7a767ea0576b3e24b933a4acd405e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_05.png using Guid(7a767ea0576b3e24b933a4acd405e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3371baf95c553b3b3c2a59967329d76c') in 1.748412 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/WordImage/wordTitle/1_6.PNG
+  artifactKey: Guid(ce353f4f262682044b7a3057821974dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/1_6.PNG using Guid(ce353f4f262682044b7a3057821974dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe5d5a842fb9d737ea1acfe1ff9d3b9') in 1.083755 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_06.png
+  artifactKey: Guid(101ef2ebee8b2e34a8275110289eae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_06.png using Guid(101ef2ebee8b2e34a8275110289eae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c685cfe1431d054aa6256d424b17e') in 1.034293 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00081.png
+  artifactKey: Guid(5072e7e321d2eb8468e5407f41a47d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00081.png using Guid(5072e7e321d2eb8468e5407f41a47d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59587b85435a0c778330dd91d9ce4694') in 1.750916 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/事件2/事件/事件小logo/xiwang.png
+  artifactKey: Guid(6294b9d5113b8f54f99510634be07ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件小logo/xiwang.png using Guid(6294b9d5113b8f54f99510634be07ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02acf695723d2794d6008528634bd3c') in 1.371862 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/事件2/希望1/希望1/IMG_7073-23.png
+  artifactKey: Guid(e8b6b61958d0b254c8aaaa92b954a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/希望1/希望1/IMG_7073-23.png using Guid(e8b6b61958d0b254c8aaaa92b954a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dc7c069ea9b6b12e379fa7fa910c8a') in 1.830342 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/FirstStage/CharacterDetails/item/RiLunGuaZhui1.png
+  artifactKey: Guid(80de7f42a9b9bba418012064c8521dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/CharacterDetails/item/RiLunGuaZhui1.png using Guid(80de7f42a9b9bba418012064c8521dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6946e627f5e0d2a08da4a8f377d5c5c') in 3.244684 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/事件2/事件横幅/访客1/IMG_7073-22.png
+  artifactKey: Guid(f22b03d679e267b439b062ccac5385a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件横幅/访客1/IMG_7073-22.png using Guid(f22b03d679e267b439b062ccac5385a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d399eca124521c4122916c5d0019b7d') in 1.017778 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_12.png
+  artifactKey: Guid(691d2f4cd1f929248862662b07a92249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_12.png using Guid(691d2f4cd1f929248862662b07a92249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea008a8b36ccaf39d47901695fc6f4b') in 1.610920 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00070.png
+  artifactKey: Guid(7ff350815aada3c418c5689d9d0d0cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00070.png using Guid(7ff350815aada3c418c5689d9d0d0cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aff6161a6f7f6ab9fbb981f8b64138') in 0.959517 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00006.png
+  artifactKey: Guid(21740e067e7813243b246bf96c8efc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00006.png using Guid(21740e067e7813243b246bf96c8efc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d1e26568070d8eaabc4aa810a43deb') in 0.791129 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/事件2/事件/出现动画/IMG_7347.PNG
+  artifactKey: Guid(6b71f67c07379af478b7fa3e4db6e373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/出现动画/IMG_7347.PNG using Guid(6b71f67c07379af478b7fa3e4db6e373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0bd7cd2e7bbfd6eac3acde4288b482') in 0.846645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/standout_1.png
+  artifactKey: Guid(ded42c27be118af458819ef4cb9b3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/standout_1.png using Guid(ded42c27be118af458819ef4cb9b3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3f4e72c974a4e41e12cb198891b92f') in 0.945423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/事件2/事件/出现动画/IMG_7346.PNG
+  artifactKey: Guid(51c41843fd3a87c44b2610cc0bb2df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/出现动画/IMG_7346.PNG using Guid(51c41843fd3a87c44b2610cc0bb2df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef34083b4094278a61723cf0cc38ba54') in 0.667582 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/FirstStage/特效/HeartBroken/心碎_25.png
+  artifactKey: Guid(8ddc9647ba6dadb4184b14145074ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/HeartBroken/心碎_25.png using Guid(8ddc9647ba6dadb4184b14145074ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e110684f4ff365f47b8a78c8803e4d') in 0.591297 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_13.png
+  artifactKey: Guid(3b460b69333a0dd4794bb2cd311ac116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_13.png using Guid(3b460b69333a0dd4794bb2cd311ac116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed82cc5fbda580508dd197eaa9529756') in 0.588638 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/事件2/希望2/希望2/IMG_7073-15.png
+  artifactKey: Guid(e1734101ba98d3d4a80641f13ce315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/希望2/希望2/IMG_7073-15.png using Guid(e1734101ba98d3d4a80641f13ce315e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91a879beb0112602768bce8631bf6f3') in 0.710372 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/WordImage/wordTitle/1_0.PNG
+  artifactKey: Guid(de4feb616d82cb645aa6c49da64d286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/1_0.PNG using Guid(de4feb616d82cb645aa6c49da64d286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7718b0893cdf8448ce36aed049bb98') in 0.823622 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack27.png
+  artifactKey: Guid(3495a1bf7821590448177f1219acd40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack27.png using Guid(3495a1bf7821590448177f1219acd40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73a30ef9e5e67aec9323b6827f867e6') in 0.527854 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_00.png
+  artifactKey: Guid(fde4c2a8b5cbfec46a94c353be687905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_00.png using Guid(fde4c2a8b5cbfec46a94c353be687905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c37b3dd3b3f50f3d2ed810d3b67822b') in 0.689214 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/事件2/事件横幅/意外1/IMG_7073-17.png
+  artifactKey: Guid(d888062043d4e2a4d9b7c9c1d4b774a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件横幅/意外1/IMG_7073-17.png using Guid(d888062043d4e2a4d9b7c9c1d4b774a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106d0598e2406cb15a5e000aa84fbbc') in 1.674679 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_认知固化/renzhiguhua_01 (9).png
+  artifactKey: Guid(eff43cbbb29877b4aa3bbfb7dd908cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_认知固化/renzhiguhua_01 (9).png using Guid(eff43cbbb29877b4aa3bbfb7dd908cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d8de0d3304fdfb5fc00e80b7cc7139') in 0.987757 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-7.png
+  artifactKey: Guid(e90317cc5eda57245a44e5e5c5d2e4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-7.png using Guid(e90317cc5eda57245a44e5e5c5d2e4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9962340034cbae3ef4b483acdbec199c') in 0.595318 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animators/CharacterSprite/huaiyizhuyi/怀疑主义普攻/普攻/怀疑主义普攻_24.png
+  artifactKey: Guid(b0e0d5183b792294aa45f91895e6efa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/huaiyizhuyi/怀疑主义普攻/普攻/怀疑主义普攻_24.png using Guid(b0e0d5183b792294aa45f91895e6efa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebb0a6d1c18d59cf96a0d772288e43f') in 1.067282 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/NewArtResources/ui与补充物品/shooter_1.png
+  artifactKey: Guid(aa9030169b40b054e84bd6cfa6a05d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/ui与补充物品/shooter_1.png using Guid(aa9030169b40b054e84bd6cfa6a05d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc212905fafa0cb332a5386997e187d') in 0.640860 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/FirstStage/CharacterDetails/ShuXing/yizhili.png
+  artifactKey: Guid(70585740ddbcaa04e835de70b0b9f710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/CharacterDetails/ShuXing/yizhili.png using Guid(70585740ddbcaa04e835de70b0b9f710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a3fd6fa5119adbb4cb7fb1cf223662') in 0.489497 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_4.png
+  artifactKey: Guid(77519bcb1092e474f9bdbbcdcf74c870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_4.png using Guid(77519bcb1092e474f9bdbbcdcf74c870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdbbfaac41f4a05cb8e739f2fb693f0') in 0.529782 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00076.png
+  artifactKey: Guid(de264d6b4c515e14d8ba5ddd8b174823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00076.png using Guid(de264d6b4c515e14d8ba5ddd8b174823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab348db70a7f6186328843b53ad0148') in 1.166002 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animators/CharacterSprite/随从（补）/随从（补）/猫/attack_30.png
+  artifactKey: Guid(30ab547d529cda646a99488e5a2ff85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/随从（补）/随从（补）/猫/attack_30.png using Guid(30ab547d529cda646a99488e5a2ff85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886582a86e6c4e4e8cac66602ebb5622') in 0.654945 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/4_8.PNG
+  artifactKey: Guid(19698ed2cb6d44b4caf4adcaeddb0dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/4_8.PNG using Guid(19698ed2cb6d44b4caf4adcaeddb0dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaae433bc7d9c8516dfd568bce1b5b6') in 0.993995 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/UI/Settinglogo/攻击特效.png
+  artifactKey: Guid(313115e280dc8c442b1987b3acf349c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/UI/Settinglogo/攻击特效.png using Guid(313115e280dc8c442b1987b3acf349c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d02c65ded0034ac450b5e613e17f28e') in 0.795110 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/WordImage/BookShelf/PHXTwist_B.png
+  artifactKey: Guid(57772c61973d387458ddb00efbe5bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/BookShelf/PHXTwist_B.png using Guid(57772c61973d387458ddb00efbe5bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bf217d0cbddd4421d1a8f323d43828') in 1.613441 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/特效1/特效1/提升生命上限/tisheng_8.png
+  artifactKey: Guid(08fa78b2ce7611f48a3b64ee3eb973e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效1/特效1/提升生命上限/tisheng_8.png using Guid(08fa78b2ce7611f48a3b64ee3eb973e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20b796cda409a1fb0765c14301cfa1a') in 0.732449 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/FirstStage/特效/FuHuo/FuHuo2/3.png
+  artifactKey: Guid(a1cf68bacbca74842965cb03d71b8e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/FuHuo/FuHuo2/3.png using Guid(a1cf68bacbca74842965cb03d71b8e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a61536151749b4f46437db05a0a9fc') in 0.992298 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/危机1/IMG_7073-22.png
+  artifactKey: Guid(45a612eccc3611044b8ce4f9dce87f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/危机1/IMG_7073-22.png using Guid(45a612eccc3611044b8ce4f9dce87f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcc092e83f137491346936f6eb84cdc') in 0.940314 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/5.14槽位/849b14e3eed955690e4db48819074aa.png
+  artifactKey: Guid(d68be1ef8b398ce488e8bafd8d46060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/849b14e3eed955690e4db48819074aa.png using Guid(d68be1ef8b398ce488e8bafd8d46060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304c4a566029cd06273c1f8c5354d10c') in 0.549010 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/SpriteMask_Mask.png
+  artifactKey: Guid(eb942ce288aa1654dbf5ed0cad424cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/SpriteMask_Mask.png using Guid(eb942ce288aa1654dbf5ed0cad424cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e26fde93531e02b543bcb28e1fd9efd') in 0.686269 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_31.png
+  artifactKey: Guid(75aa4121a8526f24687c972c0e9ffca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_31.png using Guid(75aa4121a8526f24687c972c0e9ffca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35361675cad4d8b6670ed65e6e4d019') in 0.659715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/NewArtResources/tableobject/staticObject/knife.png
+  artifactKey: Guid(24bd62cf87c30db48b3563b8f2a9d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/tableobject/staticObject/knife.png using Guid(24bd62cf87c30db48b3563b8f2a9d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0babf35f6e2d0605e6656888b72ec7d') in 0.896398 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/SilenceAnimSprites/attack_0.png
+  artifactKey: Guid(53b85f6b8b629fe42976783f11e8d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/SilenceAnimSprites/attack_0.png using Guid(53b85f6b8b629fe42976783f11e8d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486f2f95c99c6cefcf94658f13ff919d') in 0.823430 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_01.png
+  artifactKey: Guid(c62162c57264a7545b678362ba4b73a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/111111111111111_01.png using Guid(c62162c57264a7545b678362ba4b73a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0546318c90adc50bd468ba5ca62143a9') in 0.764351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/WordImage/Buffs/ReLife.png
+  artifactKey: Guid(a6cf52c4378b61549b26dac17591ad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Buffs/ReLife.png using Guid(a6cf52c4378b61549b26dac17591ad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdc6714a9f97a06e05e440ea04d441b') in 0.956358 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animators/CharacterSprite/huaiyizhuyi/弹道_认知固化/renzhiguhua_01 (8).png
+  artifactKey: Guid(3c487bab6d9c68941a0fd971f11a0356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/huaiyizhuyi/弹道_认知固化/renzhiguhua_01 (8).png using Guid(3c487bab6d9c68941a0fd971f11a0356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7397662c8324166624c05268fd574c') in 0.670184 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_12.png
+  artifactKey: Guid(afe3c9d64cb4e9a459587774cdddf7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_12.png using Guid(afe3c9d64cb4e9a459587774cdddf7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9295f11b6498092090598da866e78a') in 0.408738 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/特效2/晕眩/1.png
+  artifactKey: Guid(8cac557bee7439a43ae0b937bcf30bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/晕眩/1.png using Guid(8cac557bee7439a43ae0b937bcf30bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5831b4a86bd9577038ee366f03cc5a') in 0.594113 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/FirstStage/特效/fuhuochongsheng/fuhuochongsheng2/3.png
+  artifactKey: Guid(2b7b4058ae0539741af520b953bf862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/fuhuochongsheng/fuhuochongsheng2/3.png using Guid(2b7b4058ae0539741af520b953bf862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a25b64b63b9747ba0a439ee7dc0c49') in 0.542029 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_09.png
+  artifactKey: Guid(0aa6c3f5c80783841bcc2adbf268bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_09.png using Guid(0aa6c3f5c80783841bcc2adbf268bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5f43e178a21cb132ad0fdb98251443') in 0.792042 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animators/CharacterSprite/huaiyizhuyi/怀疑主义普攻/普攻/怀疑主义普攻_06.png
+  artifactKey: Guid(102f8b9da0e3f184cb2a07f4ab9001ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/huaiyizhuyi/怀疑主义普攻/普攻/怀疑主义普攻_06.png using Guid(102f8b9da0e3f184cb2a07f4ab9001ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fa4a43eb0ca7d236d0749cf6ed7296') in 0.347613 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/UI/jiuBa_word.png
+  artifactKey: Guid(b583f38ee62df2a4199846ec467bd749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/UI/jiuBa_word.png using Guid(b583f38ee62df2a4199846ec467bd749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f56a82b115e0900b1aae1b9ee24c7') in 0.813454 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/访客1/IMG_7073-16.png
+  artifactKey: Guid(b5337d3e7cfc2244ca782620a9c1c79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/访客1/IMG_7073-16.png using Guid(b5337d3e7cfc2244ca782620a9c1c79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f4d5ac0a837ddc8de99dfb925239f6') in 0.645924 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/walk_6.png
+  artifactKey: Guid(e40dc57720e0f44419025856eb41f16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/walk_6.png using Guid(e40dc57720e0f44419025856eb41f16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0998f693b9212f048115eacc6e79c8') in 0.996677 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-6.png
+  artifactKey: Guid(be79960d97a880e478aa6c664a2e3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-6.png using Guid(be79960d97a880e478aa6c664a2e3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100aa7b43152a9e6883bb704ce95ae87') in 0.796832 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/弹道/怀疑主义弹道/怀疑主义弹道_思潮/1.png
+  artifactKey: Guid(abdc588073321074888c87b646db8bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/怀疑主义弹道/怀疑主义弹道_思潮/1.png using Guid(abdc588073321074888c87b646db8bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c884e49dacecb5e756fd7057b6e82f') in 0.653940 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_18.png
+  artifactKey: Guid(dfc84b48350214e48a95913939b2f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_18.png using Guid(dfc84b48350214e48a95913939b2f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45e974097b0e773ca707adfddbeb41a') in 1.009723 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/特效2/晕眩/3.png
+  artifactKey: Guid(1ea48e091cb71114fb4b7123d4cf3582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/晕眩/3.png using Guid(1ea48e091cb71114fb4b7123d4cf3582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1b187bdabfa41303783cb763dc5638') in 0.910713 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/FirstStage/特效/fuhuochongsheng/fuhuochongsheng2/9.png
+  artifactKey: Guid(a9ba95218aeccca4db1b4731a1e60fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/fuhuochongsheng/fuhuochongsheng2/9.png using Guid(a9ba95218aeccca4db1b4731a1e60fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73802f372c4ad97dc3b034e19889d3b') in 0.755999 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_认知固化/renzhiguhua_01 (11).png
+  artifactKey: Guid(1e55f8f5fff495047964c02b6e1d039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_认知固化/renzhiguhua_01 (11).png using Guid(1e55f8f5fff495047964c02b6e1d039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fb8ae5b89d3cf70ad4d358cd0f4445') in 0.745734 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/standout_23.png
+  artifactKey: Guid(8b1bedd2e777ff449901d57459206c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/standout_23.png using Guid(8b1bedd2e777ff449901d57459206c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b7ea65983bdfdef407fb2062ee0af8') in 0.999858 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/特效2/复活/复活_上/4.png
+  artifactKey: Guid(7f14c4eff82934e45b4d3be3d5ee995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/复活/复活_上/4.png using Guid(7f14c4eff82934e45b4d3be3d5ee995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54628eebfca42395ea1cf4eeb6313ec') in 0.572607 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack6.png
+  artifactKey: Guid(9fc837dea3fcc994d8bac8b8df76387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack6.png using Guid(9fc837dea3fcc994d8bac8b8df76387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5a5973ef94148fc235bbde249a610a') in 1.014160 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/WordImage/Character/Detail/垄断公司.png
+  artifactKey: Guid(0b37bd46110784849b2b04bb8f7feea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Character/Detail/垄断公司.png using Guid(0b37bd46110784849b2b04bb8f7feea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df075c7070851fdb6fea11c50e38c38') in 0.613562 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_02.png
+  artifactKey: Guid(0af58c4434520454683a01a15aaae5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_02.png using Guid(0af58c4434520454683a01a15aaae5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba47ab6e743c824714f3f231516258') in 0.618131 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/事件2/意外1/意外1/IMG_7073-21.png
+  artifactKey: Guid(a6ea358472839624a8948be5a9fac8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/意外1/意外1/IMG_7073-21.png using Guid(a6ea358472839624a8948be5a9fac8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71876212ca156977413edd20f1111508') in 1.247877 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animators/CharacterSprite/RatAnim/walk_15.png
+  artifactKey: Guid(03632ab549625e242a9c73e355a6bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/RatAnim/walk_15.png using Guid(03632ab549625e242a9c73e355a6bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5144f137e38c775e4daa8d41e865c034') in 0.640750 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00048.png
+  artifactKey: Guid(9e29d79a35436364ba91a5c4b072cd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00048.png using Guid(9e29d79a35436364ba91a5c4b072cd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e26dd74b3e0d30f3158fb2061a1457e') in 0.712439 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/事件2/事件/事件大logo/WEIJI.PNG
+  artifactKey: Guid(145ae0a847537ec4d8e2f56c94f1c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件大logo/WEIJI.PNG using Guid(145ae0a847537ec4d8e2f56c94f1c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ff64a67adc9bdaadbe847ac15b0883') in 0.963959 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_06.png
+  artifactKey: Guid(3293dd803a7eb764a9ed506a5f456acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_06.png using Guid(3293dd803a7eb764a9ed506a5f456acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d589cec34f93bc02317049b4fbb79') in 0.767579 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animators/CharacterSprite/RatAnim/walk_4.png
+  artifactKey: Guid(142e912e09a91bd4182d527a28b5ac04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/RatAnim/walk_4.png using Guid(142e912e09a91bd4182d527a28b5ac04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c69c4cc54824cef8d6a29c269007df') in 0.922667 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_12.png
+  artifactKey: Guid(3cc9a6b3dbdd7d44185be620a750d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_12.png using Guid(3cc9a6b3dbdd7d44185be620a750d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746dde9fc71e45381f379beeae94dc12') in 0.625424 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/3_7.PNG
+  artifactKey: Guid(538ca830347581f488372b9142a14e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/3_7.PNG using Guid(538ca830347581f488372b9142a14e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45bfc569c31d06bb0cbfa39c72d42bd') in 0.753112 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/WordImage/Verb/v_11.PNG
+  artifactKey: Guid(46d862282501d9d44858a4acf4b81eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Verb/v_11.PNG using Guid(46d862282501d9d44858a4acf4b81eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05f11d7ad9eefdfbad0be9207954ede') in 0.855887 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00020.png
+  artifactKey: Guid(2c413a97fcc4efa47b296c4185b33ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00020.png using Guid(2c413a97fcc4efa47b296c4185b33ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f426067b43d5752220844dd769cfc70b') in 1.850179 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack31.png
+  artifactKey: Guid(e741fb2b669207f46bcc86427e29e77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack31.png using Guid(e741fb2b669207f46bcc86427e29e77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610827bd95a896d9e6f0fb920de6d4ee') in 1.873602 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animators/CharacterSprite/BeiLuoJiSprite/攻击/attack_29.png
+  artifactKey: Guid(058e9c18c66adce4a921a6f196f18d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/BeiLuoJiSprite/攻击/attack_29.png using Guid(058e9c18c66adce4a921a6f196f18d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5f45c14a08ee3e7eeb6b509377fd52') in 1.084842 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/圈圈（摆上去之后消失/圈圈/round2.png
+  artifactKey: Guid(60e94fc367e047f499440ab745947397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/圈圈（摆上去之后消失/圈圈/round2.png using Guid(60e94fc367e047f499440ab745947397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63237f64605d0ab69c4f055a72c5bbc') in 0.465921 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/随从（补）/随从（补）/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_20.png
+  artifactKey: Guid(9218674cb3403094eb49bbf9a91120c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/随从（补）/随从（补）/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_20.png using Guid(9218674cb3403094eb49bbf9a91120c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1ece503e87e4ea8249f41b87049815') in 0.765659 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/11.png
+  artifactKey: Guid(1b54d12662bc2f84382289018e72511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/11.png using Guid(1b54d12662bc2f84382289018e72511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97367dfd78c34e65c6619f5be5f70a39') in 0.542373 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/希望2/IMG_7073-15.png
+  artifactKey: Guid(71850e9f1db874c44a7feb34903998f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/希望2/IMG_7073-15.png using Guid(71850e9f1db874c44a7feb34903998f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff5c90270c118b2552809ec4a6d933b') in 0.590280 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/FirstStage/特效/LengXiangWanSkill/冷香丸特效_00.png
+  artifactKey: Guid(9e5b4f7454cd8234ca962d182d82647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/LengXiangWanSkill/冷香丸特效_00.png using Guid(9e5b4f7454cd8234ca962d182d82647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7e9f5f9df94d2de6893723b85dfe7e') in 0.379149 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/FirstStage/特效/HeartBroken/心碎_19.png
+  artifactKey: Guid(93f1685ea4485c842b5d905ff6bb6c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/HeartBroken/心碎_19.png using Guid(93f1685ea4485c842b5d905ff6bb6c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43e57c757db0c156cd85b0a1238ff9f') in 0.459947 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00037.png
+  artifactKey: Guid(71f51d5b45d3ff844b096eae11f0dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00037.png using Guid(71f51d5b45d3ff844b096eae11f0dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f9bf837bda28c23f5d548239ddd81') in 0.615719 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/特效2/亢奋/9.png
+  artifactKey: Guid(7a16044e0db8fa842aa9e0a6fa668f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/亢奋/9.png using Guid(7a16044e0db8fa842aa9e0a6fa668f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3419dfb499ea408094e619cd640f8ebd') in 0.486345 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/2.6状态卡/2.6状态卡/卡面画/state_11.PNG
+  artifactKey: Guid(15fae3c433497fb40a929bc1ebfc397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/2.6状态卡/2.6状态卡/卡面画/state_11.PNG using Guid(15fae3c433497fb40a929bc1ebfc397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067966d0102ca55e4e0e3e79b843b9d5') in 0.803045 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00067.png
+  artifactKey: Guid(5a88762bfc1cff549a01981438f5a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/红牌/红牌_00067.png using Guid(5a88762bfc1cff549a01981438f5a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f761c79ffc85cbe8d5a59ed03b3709c4') in 0.890867 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/NewArtResources/设定/pingyong_card.png
+  artifactKey: Guid(c35ba88cc7efb324996d4ad70377e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/设定/pingyong_card.png using Guid(c35ba88cc7efb324996d4ad70377e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f70ec02b40c9a6b8387608cf6bcf415') in 0.753024 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/2_1.PNG
+  artifactKey: Guid(2df051629a5e1bf4f948132c6007592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/2_1.PNG using Guid(2df051629a5e1bf4f948132c6007592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbc52fcdf97fe6428635aefd38aa0b1') in 1.031935 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/NewArtResources/battleUI/paprball3.PNG
+  artifactKey: Guid(0cc8599de28717f419edb085f65bca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/battleUI/paprball3.PNG using Guid(0cc8599de28717f419edb085f65bca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354c8617911813cd1423ec17625c46e7') in 1.457756 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/弹道/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_20.png
+  artifactKey: Guid(4b237098ff9e6164a95a43ed6ab7b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_20.png using Guid(4b237098ff9e6164a95a43ed6ab7b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac696a460d32137ceb0a8d0bfb68594f') in 0.515225 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/StoryCG/mingzhongzhuding/tears-5.png
+  artifactKey: Guid(effa954bf96d69b46af43795ce283b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/StoryCG/mingzhongzhuding/tears-5.png using Guid(effa954bf96d69b46af43795ce283b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f0b67c3188bf259dff887ed91d3fb') in 0.589659 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_06.png
+  artifactKey: Guid(10a237e57a066914caa75c5e1dec76a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_06.png using Guid(10a237e57a066914caa75c5e1dec76a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4895e22ea1fd31039e5b8c64c2220') in 0.542989 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/NewArtResources/tableobject/staticObject/scissors.png
+  artifactKey: Guid(b52396bd68619a54ebe109864fab5e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/tableobject/staticObject/scissors.png using Guid(b52396bd68619a54ebe109864fab5e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88b551e82ec59739c0d655cf548d599') in 0.941579 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_04.png
+  artifactKey: Guid(ea24f33db1f5a0c40a341a6cc2cf88ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_04.png using Guid(ea24f33db1f5a0c40a341a6cc2cf88ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc7309868011aa0242520a161171d87') in 1.584487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/蘑菇弹道/attack_27.png
+  artifactKey: Guid(3b63cf81228a6e1498a31ffc597cc699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/蘑菇弹道/attack_27.png using Guid(3b63cf81228a6e1498a31ffc597cc699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706dd67122b5ffa07e67cecc9d6de91') in 0.652451 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/事件2/交易1/交易1/IMG_7073-20.png
+  artifactKey: Guid(0b0a1123826bdc94b9a9e487b8aec963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/交易1/交易1/IMG_7073-20.png using Guid(0b0a1123826bdc94b9a9e487b8aec963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2bb19fd59b1aa98ab1adf518e5790a') in 0.515288 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack22.png
+  artifactKey: Guid(da9e01cab06d6bc4eb5be078928a5af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack22.png using Guid(da9e01cab06d6bc4eb5be078928a5af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb7ddbb81e523592a483a4e4e28434a') in 1.736737 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/8.png
+  artifactKey: Guid(d092a6fbda3a7de41a388dbbca865d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/8.png using Guid(d092a6fbda3a7de41a388dbbca865d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af72ba5d98213b0343f001f763d91705') in 1.092950 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/事件2/事件横幅/意外2/IMG_7073-9.png
+  artifactKey: Guid(db318587a78bee044841ea589d80aabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件横幅/意外2/IMG_7073-9.png using Guid(db318587a78bee044841ea589d80aabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6daf1424d424fd341bb4a53e5ef409') in 1.392925 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animators/CharacterSprite/fsc动画/fsc动画/attack/attack_33.png
+  artifactKey: Guid(0cdce5de65e070b418a1ab7e8cd070fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/fsc动画/fsc动画/attack/attack_33.png using Guid(0cdce5de65e070b418a1ab7e8cd070fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b3b3ce2ea3b1ca7fd7c8b0effccbb') in 1.076838 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/walk_10.png
+  artifactKey: Guid(6391144a4351cb24cbf0baf3d0dd7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/walk_10.png using Guid(6391144a4351cb24cbf0baf3d0dd7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600bec26c0704d3f676355d98d2fe336') in 1.080334 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/NewArtResources/tableobject/staticObject/inkbottle_lid.png
+  artifactKey: Guid(1ca8e3cebd5d52c4d909e743e9bc0107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/tableobject/staticObject/inkbottle_lid.png using Guid(1ca8e3cebd5d52c4d909e743e9bc0107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d83a14f223d47b8e7af5e0c15fee7ea') in 0.617475 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Other/Book-Page Curl/Example/sprites/page1.png
+  artifactKey: Guid(9f1ddd79b2fa5444b9f0150b809a8dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Other/Book-Page Curl/Example/sprites/page1.png using Guid(9f1ddd79b2fa5444b9f0150b809a8dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f28761715fb662d99a8d55d0e331adb') in 0.426337 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/事件2/按钮/touzi/7.png
+  artifactKey: Guid(2269992baf4701d4fb76e6a1365190c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/按钮/touzi/7.png using Guid(2269992baf4701d4fb76e6a1365190c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c87c8d22903af37edd86222526e84e7') in 0.805074 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/事件2/事件横幅/访客1/IMG_7073-18.png
+  artifactKey: Guid(e3ea0a97851f03f4b8ac94a1cb7c996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件横幅/访客1/IMG_7073-18.png using Guid(e3ea0a97851f03f4b8ac94a1cb7c996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe9ab6fd38a08b3326fe59cf9210694') in 0.582255 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/5.27信件/jindutiao_boss.png
+  artifactKey: Guid(ca7f3cabb5672f74fa02b861ef57a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.27信件/jindutiao_boss.png using Guid(ca7f3cabb5672f74fa02b861ef57a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee383c3818708b33fa101824d968be1') in 0.344218 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/standout_4.png
+  artifactKey: Guid(dc4ddf6e64fd3c542930a505bb0bd7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/JingJiYaLiAnimSprites/standout_4.png using Guid(dc4ddf6e64fd3c542930a505bb0bd7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540cb3b461377014f9792f2eb31fb7c0') in 0.680788 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/意外1/IMG_7073-18.png
+  artifactKey: Guid(bc82349c69281184abd4b788ede4b227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/意外1/IMG_7073-18.png using Guid(bc82349c69281184abd4b788ede4b227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6db74ab064d5cca8dde3d2fb8f42b') in 0.642329 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/触发文本弹道特效/触发文本弹道特效/word_burst/word_burst-13.png
+  artifactKey: Guid(9efee09cd5c54b74181561aa72e717db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/触发文本弹道特效/触发文本弹道特效/word_burst/word_burst-13.png using Guid(9efee09cd5c54b74181561aa72e717db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129f067db08b0a941a4e2b9c3d1f7c91') in 0.531891 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/事件2/意外1/意外1/IMG_7073-16.png
+  artifactKey: Guid(75e13c3ccfb78b3419067169237a245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/意外1/意外1/IMG_7073-16.png using Guid(75e13c3ccfb78b3419067169237a245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1cf085a6c60a403b4916f5ec901bd2') in 0.510715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/弹道/警察弹道/警察特效/4.png
+  artifactKey: Guid(7bf55b09625d1c045b90d09ccd8d304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/警察弹道/警察特效/4.png using Guid(7bf55b09625d1c045b90d09ccd8d304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82ff6f38aa5eb5d9ab9a6ad636cca6') in 0.653005 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/NewArtResources/放置角色+信件UI+新进度条/放置角色+信件UI+新进度条/放置角色界面补充/yellow3.png
+  artifactKey: Guid(d0dddabac7202aa4985e867c22615082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/放置角色+信件UI+新进度条/放置角色+信件UI+新进度条/放置角色界面补充/yellow3.png using Guid(d0dddabac7202aa4985e867c22615082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f903582c1845774d708e48beae3481') in 0.639323 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/特效2/亢奋/7.png
+  artifactKey: Guid(89e15c8a5a3304e4a934372e9a05c811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/亢奋/7.png using Guid(89e15c8a5a3304e4a934372e9a05c811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f74da4c92411aff7f7125f65eb311a') in 0.553476 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animators/CharacterSprite/huaiyizhuyi/弹道_认知固化/renzhiguhua_01 (4).png
+  artifactKey: Guid(30df3a3e96396ab458cdb323234a9231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/huaiyizhuyi/弹道_认知固化/renzhiguhua_01 (4).png using Guid(30df3a3e96396ab458cdb323234a9231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734182bf52ea5da9d1fe1f24cb1d17c9') in 0.729540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/NewArtResources/剧场/displaceChara/未命名作品-9.png
+  artifactKey: Guid(72a3414deb097c74da6cdefa18afcc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/剧场/displaceChara/未命名作品-9.png using Guid(72a3414deb097c74da6cdefa18afcc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf744ab9173da4e552c11bb4c8ddbe28') in 0.414114 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/危机2/IMG_7073-10.png
+  artifactKey: Guid(45ae0d7c4adb83d4d9f107ae0a6ef166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/危机2/IMG_7073-10.png using Guid(45ae0d7c4adb83d4d9f107ae0a6ef166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a319e4481000126f3ad097288f959164') in 0.443298 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/FirstStage/章节结束/exitPanel/ReadMe.png
+  artifactKey: Guid(0263b54f6284b4149ba68cbe4775cafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/章节结束/exitPanel/ReadMe.png using Guid(0263b54f6284b4149ba68cbe4775cafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b995324a898f63eab5ef2be46797d88a') in 1.026975 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/事件2/按钮/wozaixiangxiang.png
+  artifactKey: Guid(6292aa05a08bc314cbd805fb91f0694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/按钮/wozaixiangxiang.png using Guid(6292aa05a08bc314cbd805fb91f0694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46af04c0be0932674b70134fda632483') in 0.686916 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Animators/CharacterSprite/AnubisSprite/anubisi_23.png
+  artifactKey: Guid(3eb13030f547b614f9a0a71f84014ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/AnubisSprite/anubisi_23.png using Guid(3eb13030f547b614f9a0a71f84014ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382a3b117dc05852b7f0ec1c71f7d0cd') in 0.574383 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00003.png
+  artifactKey: Guid(1df8a56be91a11d4b9d3a475f2993f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/待机/黑牌1_00003.png using Guid(1df8a56be91a11d4b9d3a475f2993f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2c7339796b63da71232b8405d8752e') in 0.547862 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/3.png
+  artifactKey: Guid(bb7a17be6b084a844a1c82d4b4846732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/2024.6.1弹道/2024.6.1弹道/怀疑主义弹道_思潮/3.png using Guid(bb7a17be6b084a844a1c82d4b4846732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47462f43e5d03f55ea712d795283686f') in 0.539390 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/特效2/复活/复活_下/8.png
+  artifactKey: Guid(b70f4624f9cc94446bf7037dd128581c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/复活/复活_下/8.png using Guid(b70f4624f9cc94446bf7037dd128581c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f7e32f5135a0a4d23ec368ab4ba01') in 0.811067 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/NewArtResources/放置角色+信件UI+新进度条/放置角色+信件UI+新进度条/书本命名+收到信件/letter1.png
+  artifactKey: Guid(c02ec4956fe7c964aa5d41a0432f66e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/放置角色+信件UI+新进度条/放置角色+信件UI+新进度条/书本命名+收到信件/letter1.png using Guid(c02ec4956fe7c964aa5d41a0432f66e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc820a6531a0c803cf80346d1239bca6') in 0.613897 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/WordImage/wordTitle/2_0.PNG
+  artifactKey: Guid(54c0e58d20347c841a4d6767292926be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/2_0.PNG using Guid(54c0e58d20347c841a4d6767292926be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df357140eb74cb4425c3fb5b844488e4') in 0.624286 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack0.png
+  artifactKey: Guid(8d11f78d6a527a743b333580e3f9ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack0.png using Guid(8d11f78d6a527a743b333580e3f9ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d93232506117116254eee23f12078e3') in 0.409096 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/WordImage/BookShelf/Salome_T.png
+  artifactKey: Guid(6a9e2e12d1b07994ebfd29644c655644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/BookShelf/Salome_T.png using Guid(6a9e2e12d1b07994ebfd29644c655644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b95d8c57c4e86389d17cde1ff1c637') in 0.726585 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/WordImage/Character/Detail/贾宝玉.png
+  artifactKey: Guid(0975e6703ff35184bacadd06abebfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Character/Detail/贾宝玉.png using Guid(0975e6703ff35184bacadd06abebfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2e98288045e0fe328ddbd1975d6b03') in 0.507397 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/1.22毕设/1.22毕设/框/IMG_7570.PNG
+  artifactKey: Guid(44b89753b8ea342448907e70c4415ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/1.22毕设/1.22毕设/框/IMG_7570.PNG using Guid(44b89753b8ea342448907e70c4415ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df60d2dced0234555a9bbc7393ee4489') in 0.733545 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/弹道/放射尘弹道/0.png
+  artifactKey: Guid(6cfbc6b8355e3d448a2aec82706c4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/放射尘弹道/0.png using Guid(6cfbc6b8355e3d448a2aec82706c4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddf40ee8927558f238ca83bed312446') in 0.520275 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/WordImage/Verb/v_16.PNG
+  artifactKey: Guid(0154ea517fd54414baea77fec056dc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Verb/v_16.PNG using Guid(0154ea517fd54414baea77fec056dc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ada60e0981e5f88bdfdd37949ca3b7') in 0.364661 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/UI/jiuBa.png
+  artifactKey: Guid(742f77dd47cb4e740b698d70ff1e1d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/UI/jiuBa.png using Guid(742f77dd47cb4e740b698d70ff1e1d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a340c03f7da03c099d919c9d4b2f7ca1') in 0.480528 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/WordImage/Verb/v_5.PNG
+  artifactKey: Guid(124f4c2699449694f91e79422fb835e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Verb/v_5.PNG using Guid(124f4c2699449694f91e79422fb835e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd40ded4d04b9fca258d127d3fa80cc8') in 0.680555 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/settingSprite/qiaosi/yaohaizhence.PNG
+  artifactKey: Guid(a90da2443cccb7a4d8ddc2758841e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/settingSprite/qiaosi/yaohaizhence.PNG using Guid(a90da2443cccb7a4d8ddc2758841e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b66d71c6683acc7906d2ba2245e0905') in 1.194191 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animators/CharacterSprite/随从（补）/随从（补）/猫/attack_01.png
+  artifactKey: Guid(866eaa24798f08341bafc6792c9938dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/随从（补）/随从（补）/猫/attack_01.png using Guid(866eaa24798f08341bafc6792c9938dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3767e388b10f5e030b89d3780d8724e') in 0.879683 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/5.10/放置角色页面/juese_background1.png
+  artifactKey: Guid(eb6d59187072bbd4aad592d9047ed343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.10/放置角色页面/juese_background1.png using Guid(eb6d59187072bbd4aad592d9047ed343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000ecb69a75b384c32f000d94c3b7f33') in 1.021795 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/1_3.PNG
+  artifactKey: Guid(289b7a322a421d14dba5fa2d0f1023aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/1_3.PNG using Guid(289b7a322a421d14dba5fa2d0f1023aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f60c1d65a7231766bd8759aaf249d91') in 0.635880 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/WordImage/wordTitle/1_4.PNG
+  artifactKey: Guid(4f804f42d5985ec49927ed714937ab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/1_4.PNG using Guid(4f804f42d5985ec49927ed714937ab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f78e408f34a9e3e1303fb12ece4b5db') in 1.136296 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00055.png
+  artifactKey: Guid(60c486a2cc63dbb44a7028823108f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShiLianSprite/失恋/黑牌/黑牌1_00055.png using Guid(60c486a2cc63dbb44a7028823108f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ab745e828408f8c2424dc075de5b56') in 6.787389 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-3.png
+  artifactKey: Guid(bd615b9e8b593184f9f8a4e129762d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/触发文本弹道特效/触发文本弹道特效/word_bullet/word_bullet-3.png using Guid(bd615b9e8b593184f9f8a4e129762d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ed7a239896b3350e80b2c4e6c0f98b') in 0.425762 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/New/10.27游创/verb base.PNG
+  artifactKey: Guid(3cd89e2daf5d58e498072cd8f1da2e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/New/10.27游创/verb base.PNG using Guid(3cd89e2daf5d58e498072cd8f1da2e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922903aa511614d17548de4b86d5fb3') in 0.320453 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005210 seconds.
+  path: Assets/Resources/FirstStage/特效/xuanyun/5.png
+  artifactKey: Guid(1b7f2248cacfb1743a121d11cf9e6919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FirstStage/特效/xuanyun/5.png using Guid(1b7f2248cacfb1743a121d11cf9e6919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5965085b4920fdbcc82735daf1fa926') in 0.957024 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_35.png
+  artifactKey: Guid(918965f54f31589408a7cf4c386334c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/siyangyuanSprites/siyangyuan_35.png using Guid(918965f54f31589408a7cf4c386334c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e1842f84f103d0d1c8f072c71d9501') in 0.468194 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/5.14槽位/5.10小纸条/3_5.PNG
+  artifactKey: Guid(1fd20a3791577e146bef9b15f132cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/5.14槽位/5.10小纸条/3_5.PNG using Guid(1fd20a3791577e146bef9b15f132cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343e38ce9ad3b3a996f48cab6e37edd6') in 0.939824 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/交易1/IMG_7073-17.png
+  artifactKey: Guid(fee1aed04e8c5b2479466ba8bb627c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/交易1/IMG_7073-17.png using Guid(fee1aed04e8c5b2479466ba8bb627c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc69184380f03397bda50349d1ac864') in 0.703087 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_48.png
+  artifactKey: Guid(8832e736476bdfe4ab21e82115c253e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/DiKaDeSprite/xuliezhen_48.png using Guid(8832e736476bdfe4ab21e82115c253e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e28d0acf5065dbe2561c8bb64dbe8b9') in 1.647022 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/UI/Settinglogo/治疗.png
+  artifactKey: Guid(0f4cddbfebe3b984e98d80b417305a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/UI/Settinglogo/治疗.png using Guid(0f4cddbfebe3b984e98d80b417305a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabc77f32ef191fe208adfb5266bb255') in 0.703773 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_22.png
+  artifactKey: Guid(351065e0e8fc4204b99608ccd1a5c9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/WangXiFengAnimSprites/walk_22.png using Guid(351065e0e8fc4204b99608ccd1a5c9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b579adcd18a9e2478efb06759ef69714') in 0.799373 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/特效2/亢奋/4.png
+  artifactKey: Guid(8a347f6ce0f91334a918608309e3478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/亢奋/4.png using Guid(8a347f6ce0f91334a918608309e3478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2b695714a55aa13f1fa663c8bb24ce') in 0.813442 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/特效2/俘获/俘获_上/1.png
+  artifactKey: Guid(e4d53ddad7b5b6d4696a6039496dfebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/俘获/俘获_上/1.png using Guid(e4d53ddad7b5b6d4696a6039496dfebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0a10600f2d5c2ef07e445b7058597f') in 0.830687 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animators/CharacterSprite/随从（补）/随从（补）/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_12.png
+  artifactKey: Guid(2c5395670c535484898f6edf9aef9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/随从（补）/随从（补）/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_12.png using Guid(2c5395670c535484898f6edf9aef9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ec177c858af28b17b88bd717569205') in 0.440374 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/StoryCG/mingzhongzhuding/tears-2.png
+  artifactKey: Guid(02cd1bdf7b2cecb42aae937a16f7c253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/StoryCG/mingzhongzhuding/tears-2.png using Guid(02cd1bdf7b2cecb42aae937a16f7c253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00da102b7c1b67f55aada5e0dc75ae8') in 0.368364 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/特效2/复活/复活_上/2.png
+  artifactKey: Guid(a6d76c6ca6c520b459662e8fc72a87d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/特效2/复活/复活_上/2.png using Guid(a6d76c6ca6c520b459662e8fc72a87d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcfd9a15443f5c18fa632fc9d034ab2') in 0.664229 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/交易1/IMG_7073-23.png
+  artifactKey: Guid(915462f6c54c37d45849648662e5a8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/交易1/IMG_7073-23.png using Guid(915462f6c54c37d45849648662e5a8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa2d7165bd27f435cd37363d14510b5') in 0.467938 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/debugUI.prefab
+  artifactKey: Guid(952ff3d4276c53a49b54ae6d3067f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/debugUI.prefab using Guid(952ff3d4276c53a49b54ae6d3067f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bfb61bcf3f6a83b884ff59dc38f997') in 0.986211 seconds 
+Number of asset objects unloaded after import = 299
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/弹道/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_07.png
+  artifactKey: Guid(b96e46d1bd739eb48841c1c04cbb5408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/弹道/本杰士堆弹道/站在石头上的待机动画，也可以用0在unity做简单的晃动动画/待机_07.png using Guid(b96e46d1bd739eb48841c1c04cbb5408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ffc8b351b772c597b95cd1e3e5fdb') in 0.574249 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/事件2/危机1/危机1/IMG_7073-18.png
+  artifactKey: Guid(b9a9d4afe578feb4b92b0bc1b2cd827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/危机1/危机1/IMG_7073-18.png using Guid(b9a9d4afe578feb4b92b0bc1b2cd827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55944b3376004b1653c5d6f7c833bb06') in 1.325612 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_0.png
+  artifactKey: Guid(7e3ece5d254d83d49982b666d9ceee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/SilenceAnimSprites/walk_0.png using Guid(7e3ece5d254d83d49982b666d9ceee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db97bbe9a080b93aaad7de8448869342') in 1.404066 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/UI/Settinglogo/蓄能.png
+  artifactKey: Guid(b0f4572a3e0516f40948946fa468349d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/UI/Settinglogo/蓄能.png using Guid(b0f4572a3e0516f40948946fa468349d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f963f9dc844262009970d8b8546e3b61') in 0.401346 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/WordImage/Verb/v_17.PNG
+  artifactKey: Guid(8901d161218569c4191d1b402d076ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Verb/v_17.PNG using Guid(8901d161218569c4191d1b402d076ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dd2d53b807b85310d45fea8550a23d') in 1.221774 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/UI/Settinglogo/净化.png
+  artifactKey: Guid(819ca4c39832b7641bb2053ef2d89014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/UI/Settinglogo/净化.png using Guid(819ca4c39832b7641bb2053ef2d89014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceffd8b555da376b5d9e9f8cb6ed4984') in 0.818894 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/事件2/事件/事件横幅/访客1/IMG_7073-20.png
+  artifactKey: Guid(81e563872582f6c48b3fe23558238948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/事件2/事件/事件横幅/访客1/IMG_7073-20.png using Guid(81e563872582f6c48b3fe23558238948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383ad19a662806871495734e63a55567') in 0.615735 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_02.png
+  artifactKey: Guid(7fbe09383eb9b1a43a645f276321303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/ShaLeMeiSprite/序列帧_02.png using Guid(7fbe09383eb9b1a43a645f276321303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd368f6dce0d95bc3394a30bcde465b7') in 1.609819 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/WordImage/wordTitle/3_1.PNG
+  artifactKey: Guid(c32db6bda3f74f845b78f8d86df9648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/wordTitle/3_1.PNG using Guid(c32db6bda3f74f845b78f8d86df9648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2904f237efdfc08d5133257bbde95d68') in 0.664042 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/StoryCG/eyemask/zhayan-11.png
+  artifactKey: Guid(6ee58e75b81ad84489bb0f82bf7663b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/StoryCG/eyemask/zhayan-11.png using Guid(6ee58e75b81ad84489bb0f82bf7663b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84c6eff49c04b40637954ec9451fb1e') in 0.775714 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/NewArtResources/剧场/displaceChara/未命名作品-12.png
+  artifactKey: Guid(8a1c7863decf2ff43adabf8daf90e821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/剧场/displaceChara/未命名作品-12.png using Guid(8a1c7863decf2ff43adabf8daf90e821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8757686401ba01a63a95f3b32adbd183') in 0.767054 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animators/CharacterSprite/随从（补）/随从（补）/蘑菇/attack_32.png
+  artifactKey: Guid(edbef8052981cd0439bd17ea6549765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/CharacterSprite/随从（补）/随从（补）/蘑菇/attack_32.png using Guid(edbef8052981cd0439bd17ea6549765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baf5bb055d3730fcfb9606632340cb3') in 1.004999 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack42.png
+  artifactKey: Guid(ed3c0a29359ed894292ff875551b99d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animators/黛玉普攻序列帧+飞行物/LinDaiYu_attack42.png using Guid(ed3c0a29359ed894292ff875551b99d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c13acf526c059c1246e691ef89bcc2') in 1.764039 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/退出界面_0013_蒙版.png
+  artifactKey: Guid(ca36e4632eba71b4b9e9f91e3e1d6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/退出界面_0013_蒙版.png using Guid(ca36e4632eba71b4b9e9f91e3e1d6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd209db69b338992bf7d0c2fd6eef50d') in 0.937680 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.921282 seconds.
+  path: Assets/Art/NewArtResources/ui与补充物品/shooter.psb
+  artifactKey: Guid(d9669ec980d254d499afac86ad3b74e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/NewArtResources/ui与补充物品/shooter.psb using Guid(d9669ec980d254d499afac86ad3b74e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d37749782f9420139562c0441bd401e') in 1.785193 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022030 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  4.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4511ms)
+		BeginReloadAssembly (1048ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2146ms)
+			LoadAssemblies (1038ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (110ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (373ms)
+				ProcessInitializeOnLoadAttributes (795ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.5 MB). Loaded Objects now: 3590.
+Memory consumption went from 136.6 MB to 135.1 MB.
+Total: 7.204900 ms (FindLiveObjects: 0.439100 ms CreateObjectMapping: 0.263400 ms MarkObjects: 5.023100 ms  DeleteObjects: 1.476500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 284.135643 seconds.
+  path: Assets/Resources/WordImage/Book/FluStudy.png
+  artifactKey: Guid(78d338b7df110b74da9976715f4bc580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/Book/FluStudy.png using Guid(78d338b7df110b74da9976715f4bc580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9394aedecdb906ad5d095dd4454599') in 0.401870 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/WordImage/BookShelf/FluStudy_B.png
+  artifactKey: Guid(3781630fb1102f34c83b13ddd214d257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/WordImage/BookShelf/FluStudy_B.png using Guid(3781630fb1102f34c83b13ddd214d257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84c85ef0248476340b6e9927ec5da8f') in 0.316744 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.272369 seconds.
+  path: Assets/Scenes/Study.unity
+  artifactKey: Guid(4c8ce07adffefe242825a0b61d57d16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Study.unity using Guid(4c8ce07adffefe242825a0b61d57d16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee23db87a3e89a7168abc172a7385c89') in 0.068555 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.106292 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3968ms)
+		BeginReloadAssembly (1081ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (2623ms)
+			LoadAssemblies (1060ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (400ms)
+				ProcessInitializeOnLoadAttributes (806ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (245ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.5 MB). Loaded Objects now: 3596.
+Memory consumption went from 136.6 MB to 135.2 MB.
+Total: 18.166900 ms (FindLiveObjects: 2.693000 ms CreateObjectMapping: 0.460300 ms MarkObjects: 8.863700 ms  DeleteObjects: 6.146600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
